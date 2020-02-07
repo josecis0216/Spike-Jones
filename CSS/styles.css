@@ -1,0 +1,29 @@
+/* body#styleBody {
+    max-width: 960px;
+    margin: auto;
+} */
+
+.mainStyles {
+    background-color: lightgrey;
+    padding: 15px 0px;
+}
+
+
+.row {
+    max-width: 960px;
+    margin: auto;
+}
+
+h3#listen {
+    color: lightgrey;
+}
+
+button#homeButtonStyles {
+    background-color: orange;
+    color: white;
+    justify-content: center;
+}
+
+img#spikeguns {
+    margin-top: 10px;
+}
