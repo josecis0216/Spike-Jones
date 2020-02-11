@@ -3,9 +3,26 @@
     margin: auto;
 } */
 
+/* div.maxNav{
+    max-width: 960px;
+}
+
+nav {
+    max-width: 960px;
+} */
+
+img.logoStyles {
+    margin-left: 100px;
+
+}
+
 .mainStyles {
     background-color: lightgrey;
-    padding: 15px 0px;
+}
+
+div.endImage {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -18,12 +35,26 @@ h3#listen {
     color: lightgrey;
 }
 
-button#homeButtonStyles {
+span.homeStyles {
+    color: orange;
+}
+
+button.homeButtonStyles {
     background-color: orange;
     color: white;
     justify-content: center;
 }
 
-img#spikeguns {
-    margin-top: 10px;
-} 
+img {
+    max-width: 100%;
+}
+
+div.lastContainer {
+    padding: 200px 0;
+}
+
+footer.footerStyles {
+    text-align: center;
+    color: orange;
+
+}
