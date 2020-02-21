@@ -1,23 +1,15 @@
-/* body#styleBody {
-    max-width: 960px;
-    margin: auto;
-} */
-
-/* div.maxNav{
-    max-width: 960px;
-}
-
-nav {
-    max-width: 960px;
-} */
-
-img.logoStyles {
-    margin-left: 100px;
-
-}
-
 .mainStyles {
     background-color: lightgrey;
+}
+
+div.styleBody {
+    max-width: 960px;
+    margin: auto;
+}
+
+.subMainStyles {
+    padding: 25px 0;
+    background-color: white;
 }
 
 div.endImage {
@@ -53,7 +45,7 @@ div.lastContainer {
     padding: 200px 0;
 }
 
-footer.footerStyles {
+.footerStyles {
     text-align: center;
     color: orange;
 
