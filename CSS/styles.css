@@ -24,7 +24,8 @@ div.endImage {
     margin: auto;
 }
 
-h3#listen {
+p#listen {
+    font-size: 24px;
     color: lightgrey;
 }
 
@@ -35,7 +36,6 @@ span.homeStyles {
 button.homeButtonStyles {
     background-color: orange;
     color: white;
-    justify-content: end;
 }
 
 img {
