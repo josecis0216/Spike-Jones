@@ -1,5 +1,5 @@
 .mainStyles {
-    background-color: lightgrey;
+	background-color: lightgrey;
 }
 
 div.styleBody {
@@ -506,12 +506,10 @@ DIV.thumbHover{ /*only first & last holders are divs*/
  * Default Layout
  */
 BODY {
-	margin: 5px;
 	padding: 0;
 	font-size: 0.8em;
 	font-family: Arial,Helvetica,sans-serif;
     /* min-width: 60em;  ~ 3* #menubar width; width of the page before getting a scrollbar; IE6 doesn't get that */
-    max-width: 960px;
 }
 
 IMG {
