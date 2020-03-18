@@ -731,7 +731,7 @@ IMG.ui-datepicker-trigger {
 INPUT[type="text"], INPUT[type="password"], INPUT[type="button"],
 INPUT[type="submit"], INPUT[type="reset"], INPUT[type="file"] {
 	color: #000;
-	background-color: #d3d3d3;	/* lightgrey */
+	/* background-color: #d3d3d3;	lightgrey */
 }
 
 SELECT, TEXTAREA {
