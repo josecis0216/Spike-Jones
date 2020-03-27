@@ -2,106 +2,467 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bio: Spike Jones</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bio: Spike Jones</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="mainStyles">
-        <div class="styleBody">
-            <header class="stylesHeader">
-                <nav class="navbar navbar-expand-md navbar-dark" style="margin-bottom: 25px;">
-                    <a class="navbar-brand" style="margin-top: 15px;" href="index.html">
-                      <img class="logoStyles" src="images/spikeJonesLogo.png" width="200" height="50" alt="spike jones logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link text-secondary" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link active" href="bio.html">Bio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-secondary" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle text-secondary" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Media</a>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Recordings</a>
-                            <a class="dropdown-item" href="#">Videos</a>
-                            <a class="dropdown-item" href="#">Photo Gallery</a>
-                          </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-secondary" href="contact.html">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-            </header>
-        </div>
-        <!--first styleBody ended-->
-        <div class="styleBody">
-            <main>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6">
-                            <img src="images/spike-jones-1911-1965-us-bandleader-F38GE6.jpg" alt="">
-                        </div>
-                        <!--col 1-->
-                        <div class="col-sm-12 col-md-6">
-                            <h3><span class="homeStyles">THE LIFE OF</span><br>Spike Jones</h3>
-                            <p id="mainP">There was also a massive collection of material which was still in analog form
-                                and would continue to decay and degrade over time. That collection needed to be digitzed
-                                in high
-                                resolution from as soon as possible, and there needed to be a place where these works
-                                could be...
-                            </p>
-                            <button class="btn homeButtonStyles" type="button">Learn More</button>
-                        </div>
-                        <!--col 2-->
-                    </div>
-                    <!--End of first row-->
-                    <br>
-                </div>
-                <!--End of first container-->
-            </main><br>
-        </div>
-    </div>
-    <!--first mainStyles ended-->
+  <div class="mainStyles">
     <div class="styleBody">
-        <footer class="footerStyles">
-            <p class="footerRights">&copy All Rights Reserved Spike Jones 2020</p>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Facebook</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary"
-                        href="http://dev-spikejones.tc.uvu.edu/identification.php?redirect=%252Fadmin.php">Admin</a>
-                </li>
+      <header class="stylesHeader">
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-bottom: 25px;">
+          <a class="navbar-brand" style="margin-top: 15px;" href="index.html">
+            <img class="logoStyles" src="images/spikeJonesLogo.png" width="200" height="50" alt="spike jones logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="bio.html">Bio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-secondary" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="true" aria-expanded="false">Media</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="http://dev-spikejones.tc.uvu.edu/media/index.php?/category/3">Recordings</a>
+                  <a class="dropdown-item" href="http://dev-spikejones.tc.uvu.edu/media/index.php?/category/4">Videos</a>
+                  <a class="dropdown-item" href="http://dev-spikejones.tc.uvu.edu/media/index.php?/category/2">Photo Gallery</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="contact.html">Contact</a>
+              </li>
             </ul>
-        </footer>
+          </div>
+        </nav>
+      </header>
     </div>
+    <!--first styleBody ended-->
+    <div class="styleBody">
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <img src="images/spike-jones-1911-1965-us-bandleader-F38GE6.jpg" alt="">
+            </div>
+            <!--col 1-->
+            <div class="col-sm-12 col-md-6">
+              <h3><span class="homeStyles">THE LIFE OF</span><br>Spike Jones</h3>
+              <p id="mainP">There was also a massive collection of material which was still in analog form
+                and would continue to decay and degrade over time. That collection needed to be digitzed
+                in high
+                resolution from as soon as possible, and there needed to be a place where these works
+                could be...
+              </p>
+            </div>
+            <!--col 2-->
+          </div>
+          <!--End of first row-->
+          <br>
+        </div>
+        <!--End of first container-->
+        <div class="card-deck" style="margin-bottom: 15px;">
+          <!--beginning of first card-group-->
+          <div class="card">
+            <img class="card-img-top" src="images/Timeline1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">1911-1940</h5>
+              <p class="card-text">There’s no truth to the rumor that Lindley Armstrong Jones was born with a
+                drumstick in his hands, when he made his debut in Long Beach, California, on Dec. 14, 1911. But by
+                the age of seven he had decided to become a musician.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1911">
+                Read More
+              </button>
+              <!-- Modal 1911-->
+              <div class="modal fade" id="modal1911" tabindex="-1" role="dialog" aria-labelledby="1911title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="1911title">1911-1940</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="card-text">There’s no truth to the rumor that Lindley Armstrong Jones was born with a
+                        drumstick in his hands, when he made his debut in Long Beach, California, on Dec. 14, 1911. But
+                        by the age of seven he had decided to become a musician. It was hardly a respectable ambition
+                        for the only child of salt-of-the-earth Midwesterners, who hoped he was simply going through a
+                        phase.<br><br>
+
+                        Spike, the son of a schoolteacher and a railroad depot agent, reportedly got his nickname from a
+                        telegrapher because he hung around the tracks so often. He took trombone and piano lessons as a
+                        kid, growing up in the desert towns of the Golden State.<br><br>
+
+                        A station porter—or a lunch counter cook, according to legend—whittled Spike his first pair of
+                        drumsticks from the rungs of an old chair. He got his first set of drums at age 11, and wasted
+                        little time in organizing his first group, the Jazzbo Four. At a high school orchestra contest
+                        he met the band director of top-rated Long Beach Polytechnic High, and promptly returned to his
+                        birthplace.<br>
+                        <br>
+                        Spike got a first class musical education at Poly—the alma mater of singers Jo Stafford and
+                        Marilyn Horne, and more recently rapper Snoop Dogg—though they didn’t teach him how to “play it
+                        hot.” But he wanted to become a jazz band drummer, so he played along with the radio and
+                        reportedly drove the neighbors crazy.<br><br>
+
+                        Jones led his own combo, the Five Tacks, while in high school and continued to do so following
+                        graduation in 1929. Among his gigs in the early ‘30s was a swanky Hollywood dance band job with
+                        fledging bandleader Sam Coslow, soon to write a song called “Cocktails for Two” that would
+                        unwittingly prove an annuity for his ambitious young drummer.<br><br>
+
+                        Spike played a variety of short-lived gigs in the ‘30s alongside future bandleaders Stan Kenton
+                        and Freddie Slack. Eventually he started getting calls to report to work in the recording
+                        studios, beginning with a Decca session in 1936; he provided percussion for such popular artists
+                        as Judy Garland, Dick Powell, The Andrews Sisters, and Bing Crosby (he backed the crooner on
+                        more than 110 sides, including the evergreen “White Christmas.”)<br><br>
+
+                        He also infiltrated network radio about the same time, plying his trade anonymously in
+                        orchestras behind Al Jolson, Eddie Cantor, George Burns and Gracie Allen, Fibber McGee and
+                        Molly, and others. His longest stint was in John Scott Trotter’s band on The Kraft Music Hall
+                        with Crosby; he commuted to work in a station wagon that looked like a junkyard on wheels but
+                        “All we ever did was play soft and sweet…no cowbells, no gunfire.” Meanwhile, Jones had become a
+                        family man, marrying Patricia Ann Middleton Sept. 7, 1935; daughter Linda Lee was born Oct. 23,
+                        1939.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">1941-1945</h5>
+              <p class="card-text">Spike Jones wasn’t the first musician to wander into the “corn” field, nor would
+                he be the last. Ted Lewis, Fred Waring, Irving Aaronson and others displayed an abundant sense of
+                humor in their recordings of the 1920s; the Hoosier Hot Shots, the Schnickelfritzers
+              </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1941">
+                Read More
+              </button><!-- Modal 1941-->
+              <div class="modal fade" id="modal1941" tabindex="-1" role="dialog" aria-labelledby="1941title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="1941title">1941-1945</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="card-text">Spike Jones wasn’t the first musician to wander into the “corn” field, nor
+                        would he be the last. Ted Lewis, Fred Waring, Irving Aaronson and others displayed an abundant
+                        sense of humor in their recordings of the 1920s; the Hoosier Hot Shots, the Schnickelfritzers
+                        and their virtual clone, the Korn Kobblers, proved the harmonic potential of washboards,
+                        cowbells and auto horns in the ‘30s. But Spike would leave them all in the dust when he and his
+                        acquaintances started making novelty records.<br><br>
+
+                        By the time the fledgling group of funsters cut their first session at RCA Victor on Aug. 8,
+                        1941, many of the key personnel were in place. Band co-founder Del Porter, whose Foursome
+                        quartet Spike had backed in the ‘30s on numerous discs for Decca, handled the vocals and did the
+                        basic arrangements with trombonist King Jackson. Violinist Carl Grayson, banjoist Perry Botkin
+                        and pianist Stan Wrightsman helped develop the City Slicker sound; trumpeter Don Anderson joined
+                        the day after the first session.<br><br>
+
+                        The band’s early recordings for RCA’s Bluebird label were all over the musical map,
+                        stylistically—honky-tonk, ragtime, trad jazz and more. “Behind Those Swinging Doors,” the A side
+                        of the first release, was a typical saloon song in the old music hall style. The B side, “Red
+                        Wing,” was a 1907 tune about a lovesick Indian maiden. Victor labeled the former a “Waltz,” the
+                        flipside a “Bright Two-Step.” The band also began cutting Standard Transcription discs for radio
+                        airplay about the same time.<br><br>
+
+                        The Slickers found themselves in a whirlwind of activity in 1942, including their appearance in
+                        a group of Soundies—the precursor of music videos—a regular slot on Bob Burns’ radio show, the
+                        all-star Warner Bros. film, Thank Your Lucky Stars, and the RCA recording of “Der Fuehrer’s
+                        Face,” which made them a household name.<br><br>
+
+                        While a record ban imposed by the American Federation of Musicians in 1942 kept Spike and his
+                        funsters out of Victor studios for two years, they remained furiously busy elsewhere. The
+                        Slickers appeared in the feature films Meet the People and Bring on the Girls, recorded V-Discs,
+                        visited army hospitals and entertained American and allied forces in England and France on a
+                        1944 USO tour. Returning to find their V-Disc of “Cocktails for Two” an unexpected hit, they
+                        recorded it at RCA when the ban lifted.<br><br>
+
+                        The Slickers adopted a new look in 1945 with garish checkered and plaid suits. They recorded
+                        “Chloe,” “You Always Hurt the One You Love” and “The Nutcracker Suite,” provided comic relief in
+                        the film Ladies’ Man and appeared on radio’s The Chase and Sanborn Program.<br><br>
+
+                        Bassist-arranger Country Washburne, comedian-saxophonist Red Ingle, banjoist Dick Morgan,
+                        trumpeter George Rock and singer Helen Grayco (née Greco) joined the band during these years,
+                        while Del Porter quit the group.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">1946-1950</h5>
+              <p class="card-text">Jones put together a large dance band he called his Other Orchestra in 1946,
+                disappointing an
+                unsuspecting public. More successfully he reorganized the City Slickers for a new two-hour variety
+                show, The Musical Depreciation Revue, and began touring the country on a punishing itinerary.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1946">
+                Read More
+              </button>
+              <!-- Modal 1946-->
+              <div class="modal fade" id="modal1946" tabindex="-1" role="dialog" aria-labelledby="1946title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="1946title">1946-1950</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="card-text">Jones put together a large dance band he called his Other Orchestra in 1946,
+                        disappointing an unsuspecting public. More successfully he reorganized the City Slickers for a
+                        new two-hour variety show, The Musical Depreciation Revue, and began touring the country on a
+                        punishing itinerary.<br><br>
+
+                        Red Ingle quit the group at this time while Carl Grayson and others were terminated. Comedian
+                        Doodles Weaver, clarinetist Mickey Katz, drummer Joe Siracusa, banjoist Freddy Morgan, comedian
+                        Earl Bennett (aka Sir Frederick Gas) and dwarf Frankie Little were among those hired.<br><br>
+
+                        Spike and the Slickers enjoyed a two-year run on CBS Radio in the The Spotlight Review (The
+                        Spike Jones Show) from 1947-49, sponsored by Coca-Cola and broadcast from various cities on
+                        their itinerary. “Hawaiian War Chant,” “My Old Flame,” “The William Tell Overture” and “Two
+                        Front Teeth” were among the numbers they recorded before the start of another year-long record
+                        ban late in 1947.<br><br>
+
+                        Public appearances and radio broadcasts kept the band busy during the record ban. The Slickers
+                        had the honor of performing for President Truman in Washington, D.C., at the peak of their
+                        popularity in 1948. They returned to RCA studios to record such numbers as “Riders in the Sky,”
+                        “Morpheus,” “Rhapsody from Hunger(y)” and the album, “Spike Jones Plays the Charleston.”
+                        (“Pal-Yat-Chee,” a collaboration with Homer and Jethro, was not released until 1953).<br><br>
+
+                        Spike and the band also branched out into other media. They were parodied by Chester Gould in
+                        his “Dick Tracy” comic strip, and filmed two television pilots under the direction of Eddie
+                        Cline; the shows remained unseen by the public until they surfaced on home video decades later.<br><br>
+
+                        In private life, Spike divorced wife Patricia in 1946, marrying singer Helen Grayco (née Greco)
+                        July 18, 1948; they welcomed their son Spike Jr. to the family May 19, 1949.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <!--beginning of second card-group-->
+          <div class="card">
+            <img class="card-img-top" src="images" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">1951-1955</h5>
+              <p class="card-text">The band made its network television debut on NBC “The Colgate Comedy Hour”. The band
+                hosted two
+                episodes of NBC TV’s All-Star Revue in 1952, finally getting its first TV series on the same network
+                two years later.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1951">
+                Read More
+              </button>
+              <!-- Modal 1951-->
+              <div class="modal fade" id="modal1951" tabindex="-1" role="dialog" aria-labelledby="1951title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="1951title">1951-1955</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="card-text">Emanating live from Chicago, the band made its network television debut on
+                        NBC’s The Colgate Comedy Hour early in 1951. Critical response was mixed; their follow-up,
+                        broadcast from New York that fall, fared less well. Doodles Weaver was replaced by Peter James
+                        following a tour of Hawaii that year. There was also a new addition to Jones’ offstage family,
+                        with the arrival of daughter Leslie Ann Jones June 13, 1951.<br><br>
+
+                        Departing from the expected, the Slickers recorded a polka album (“Bottoms Up”) and a number of
+                        country and western records with a group Spike called his Country Cousins. A parody of “Dragnet”
+                        and “I’m in the Mood for Love” (vocalized by Billy Barty, a new member of his outfit) were
+                        closer to what fans expected, but a series of uninspired children’s records comprised most of
+                        his later efforts for RCA. Jones parted company with the label in 1955, later remarking to a DJ
+                        he’d been “an RCA Victim” for 15 years.<br><br>
+
+                        The band hosted two episodes of NBC TV’s All-Star Revue in 1952, finally getting its first TV
+                        series on the same network two years later.<br><br>
+
+                        Jones and the Slickers also starred in a 1954 film for Universal, Fireman, Save My Child
+                        co-starring Buddy Hackett and Hugh O‘Brian in place of Abbott and Costello, who were originally
+                        slated. Ever the perfectionist, Spike was dissatisfied with the finished product. He planed an
+                        ambitious daytime TV variety series, but failed to sell the idea.<br><br>
+
+                        The Slickers’ drawing power in live appearances began to wane at home, thanks partly to the
+                        popularity of television and the arrival of rock ‘n’ roll. A scheduled European tour failed to
+                        materialize but massive crowds welcomed the band on a 1955 tour of Australia.<br><br>
+
+                        Personnel changes were many during this period. Joe Siracusa and Earl Bennett left the band,
+                        while Dick Morgan died of a heart attack. In the mean time, Mousie Garner and Gil Bernal joined
+                        the organization.</p><br>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">1956-1960</h5>
+              <p class="card-text">Jones continued making records after departing RCA, waxing “Spike Spoofs the
+                Pops” and a number of LPs for Verve, most notably “Dinner Music for People Who Aren’t Very Hungry.”
+                He followed this assault on the public’s eardrums with “Spike Jones in Stereo” (aka “Spike Jones in
+                Hi-Fi”) for Warner Bros. Records and “Omnibust” for Liberty.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1956">
+                Read More
+              </button>
+              <!-- Modal 1956-->
+              <div class="modal fade" id="modal1956" tabindex="-1" role="dialog" aria-labelledby="1956title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="1956title">1956-1960</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="card-text">Jones continued making records after departing RCA, waxing “Spike Spoofs the
+                        Pops” and a number of LPs for Verve, most notably “Dinner Music for People Who Aren’t Very
+                        Hungry.” He followed this assault on the public’s eardrums with “Spike Jones in Stereo” (aka
+                        “Spike Jones in Hi-Fi”) for Warner Bros. Records and “Omnibust” for Liberty.<br><br>
+
+                        In league with changing tastes, the Slickers abandoned their loud plaid suits for pastel tuxedos
+                        and became The Band That Plays for Fun, for a 1957 CBS TV series that marked a departure in
+                        style. The following year, Spike served as bi-weekly host for the summer season on NBC’s Club
+                        Oasis. Daughter Gina Maria was born July 14, 1958.<br><br>
+
+                        Jones, in failing health, was diagnosed with emphysema in 1960. Nonetheless, he recorded “60
+                        Years of Music America Hates Best” and “Rides, Rapes and Rescues” for Liberty that year. He and
+                        Helen hosted a summer series for CBS TV (produced and co-written by Bill Dana) and continued to
+                        make personal appearances in Las Vegas. Jones also pitched several TV projects around town, but
+                        found no takers.<br><br>
+
+                        Freddy Morgan, George Rock and Billy Barty left the band toward the end of this period, all
+                        flourishing on their own.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">1961-1965</h5>
+              <p class="card-text">Jones’ prodigious activity in his last years belied his ill health. He recorded
+                but did not release an LP parodying conductor Leonard Bernstein, “Spike Jones as Leonard Burnside
+                Discusses…”</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1961">
+                Read More
+              </button>
+              <!-- Modal 1961-->
+              <div class="modal fade" id="modal1961" tabindex="-1" role="dialog" aria-labelledby="1961title"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="1961title">1961-1965</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="card-text">Jones’ prodigious activity in his last years belied his ill health. He
+                        recorded but did not release an LP parodying conductor Leonard Bernstein, “Spike Jones as
+                        Leonard Burnside Discusses…” He contemplated a staggering number of other projects, meanwhile
+                        recording four Liberty albums with his New Band ranging from “Washington Square” to “Hank
+                        Williams Hits.”<br><br>
+
+                        Spike and Helen toured with a revue called The Show of the Year. He began work on two additional
+                        albums, “Persuasive Concussion” and “Ghoul Days,” but sadly did not live to complete them.<br><br>
+
+                        Jones managed to fulfill a February 1965 engagement in Las Vegas, despite his illness. In March,
+                        he collapsed at Harrah’s Club in Lake Tahoe – ignoring warnings that the altitude was too severe
+                        — and was flown to a hospital in Los Angeles.<br><br>
+
+                        The maestro died at his Beverly Hills home May 1, 1965. Following a memorial service that drew a
+                        crowd of some 400 people—where he was eulogized as “a genius in the clothes of a musical
+                        satirist” with “a gloriously fantastic imagination,” Jones was entombed at Holy Cross Cemetery
+                        in Culver City, Calif.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p id="jordan">By Jordan R. Young</p>
+      </main><br>
+    </div>
+  </div>
+  <!--first mainStyles ended-->
+  <div class="styleBody">
+    <footer class="footerStyles">
+      <p class="footerRights">&copy All Rights Reserved Spike Jones 2020</p>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/Spike-Jones-46659165408/">Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="hhttp://dev-spikejones.tc.uvu.edu/media/admin.php">Admin</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </html>
